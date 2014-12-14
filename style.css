@@ -105,6 +105,7 @@ h3 {
     left: 7%;
     height: 200px;
     width: 100%;
+    z-index: 1;
 }
 
 .bio_pic {
@@ -135,6 +136,8 @@ h3 {
 	color: #444444;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	font-size: 56pt;
+	z-index: 2;
+
 }
 
 .subHeaderLine {
@@ -144,6 +147,7 @@ h3 {
 	height: 5px;
 	background-color: #c59353;
 	width: 75%;
+	z-index: 2;
 
 }
 .headerRight {
