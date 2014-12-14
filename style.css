@@ -108,6 +108,7 @@ h3 {
     z-index: 1;
     padding-top: 0px;
     margin-top: 0px;
+    border: 0px;
 }
 
 .bio_pic {
@@ -140,6 +141,7 @@ h3 {
 	position: fixed;
 	top: 0%;
 	left: 7%;
+	height: 85px;
 	width: 100%;
 	text-align: left;
 	color: #444444;
@@ -155,13 +157,14 @@ h3 {
 .subHeaderLine {
         position: fixed;
 	left: 7%;
-	top: 15.5%;
+	top: 93px;
 	height: 5px;
 	background-color: #c59353;
 	width: 75%;
 	z-index: 3;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
+	border: 0px;
 
 }
 .headerRight {
