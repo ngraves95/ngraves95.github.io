@@ -99,25 +99,23 @@ h3 {
 }
 
 .header {
-	position: absolute;
-	top:2%;
-	left: 2%;
+	position: fixed;
+	top: 5%;
+	left: 7%;
+	width: 100%;
 	text-align: left;
 	color: #444444;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-	font-size: 30pt;
-	padding: 5%;
-	padding-top: 2.5%;
+	font-size: 42pt;
 }
 
 .subHeaderLine {
-	position: absolute;
+        position: fixed;
 	left: 7%;
-	top: 15%;
-	height: 1%;
-	border-top: 2px solid;
-	border-color: #c59353;
-	width: 72%;
+	top: 16%;
+	height: 5px;
+	background-color: #c59353;
+	width: 75%;
 
 }
 .headerRight {
