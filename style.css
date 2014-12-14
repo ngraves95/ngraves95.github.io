@@ -98,6 +98,34 @@ h3 {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
+.bio_container {
+
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    height: 200px;
+    width: 100%;
+}
+
+.bio_pic {
+
+    float: left;
+    height: 158px;
+    width: 158px;
+
+}
+
+.bio_text {
+
+       float: left;
+       left: inherit;
+       width: 50%;
+       font-size: 16pt;
+       padding-top: 5px;
+       padding-left: 25px;
+
+}
+
 .header {
 	position: fixed;
 	top: 1%;
@@ -106,7 +134,7 @@ h3 {
 	text-align: left;
 	color: #444444;
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-	font-size: 48pt;
+	font-size: 56pt;
 }
 
 .subHeaderLine {
