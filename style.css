@@ -3,18 +3,17 @@ body {
     width: 97.5%;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     max-width: 900px;
+
 }
 
 p {
-	margin: 0;
-	text-align: left;
-	font-size: 12pt;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-	float:left;
-	width: 90%;
-	height: 82.5%;
-	padding-left: 2.5%;
-	padding-right: 2.5%;
+
+       float: left;
+       left: inherit;
+       width: 60%;
+       font-size: 16pt;
+       padding-top: 5px;
+       padding-left: 25px;
 }
 
 h3 {
@@ -26,8 +25,24 @@ h3 {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
+.bkgd_container {
+
+    background-color: #ffffff;
+    position: absolute;
+    top: 60%;
+    left: 7%;
+    height: 200px;
+    width: 100%;
+    z-index: 1;
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 0px;
+    max-width: inherit;
+}
+
 .bio_container {
 
+    background-color: #ffffff;
     position: absolute;
     top: 20%;
     left: 7%;
@@ -88,7 +103,7 @@ h3 {
         position: fixed;
 	left: 7%;
 	top: 92px;
-	height: 6px;
+	height: 7px;
 	background-color: #c59353;
 	width: 86%;
 	z-index: 3;
