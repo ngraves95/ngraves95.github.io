@@ -32,7 +32,7 @@ body {
 
 .contact_bar {
     	position: fixed;
-	top: 85px;
+	top: 90px;
 	left: 7%;
 	height: 25px;
 	width: 100%;
@@ -161,7 +161,7 @@ a:hover {
 .subheader_line {
         position: fixed;
 	left: 7%;
-	top: 115px;
+	top: 120px;
 	height: 7px;
 	background-color: #c59353;
 	width: 86%;
