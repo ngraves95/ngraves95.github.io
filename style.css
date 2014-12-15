@@ -32,7 +32,7 @@ body {
 
 .contact_bar {
     	position: fixed;
-	top: 87px;
+	top: 85px;
 	left: 7%;
 	height: 25px;
 	width: 100%;
@@ -52,7 +52,7 @@ body {
 
     background-color: #ffffff;
     position: absolute;
-    top: 50%;
+    top: 350px;
     left: 7%;
     height: 200px;
     width: 86%;
@@ -67,7 +67,22 @@ body {
 
     background-color: #ffffff;
     position: absolute;
-    top: 20%;
+    top: 150px;
+    left: 7%;
+    height: 200px;
+    width: 86%;
+    z-index: 1;
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 0px;
+    max-width: inherit;
+}
+
+.img_container {
+
+    background-color: #ffffff;
+    position: absolute;
+    top: 400px;
     left: 7%;
     height: 200px;
     width: 86%;
@@ -84,6 +99,14 @@ body {
     height: 158px;
     width: 158px;
 
+}
+
+.bottom_pic {
+    float: left;
+    margin-right: 4%;
+    margin-left: 0%;
+    width: 20%;
+    height: 158;
 }
 
 
@@ -120,7 +143,7 @@ a:hover {
 .header {
 	position: fixed;
 	top: 0%;
-	left: 7%;
+	left: 0%;
 	height: 85px;
 	width: 100%;
 	text-align: left;
@@ -129,7 +152,7 @@ a:hover {
 	font-size: 56pt;
 	padding-top: 1%;
 	padding-bottom: 0%;
-	padding-left: 0;
+	padding-left: 7%;
 	margin-left: 0;
 	z-index: 3;
 	background-color: inherit;
