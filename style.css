@@ -6,7 +6,7 @@ body {
 
 }
 
-p {
+.p_left {
 
        float: left;
        left: inherit;
@@ -14,6 +14,17 @@ p {
        font-size: 16pt;
        padding-top: 5px;
        padding-left: 25px;
+}
+
+.p_right {
+
+       float: left;
+       left: inherit;
+       width: 60%;
+       font-size: 16pt;
+       padding-top: 5px;
+       padding-right: 25px;
+
 }
 
 h3 {
@@ -29,7 +40,7 @@ h3 {
 
     background-color: #ffffff;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 7%;
     height: 200px;
     width: 100%;
@@ -55,7 +66,7 @@ h3 {
     max-width: inherit;
 }
 
-.bio_pic {
+.pic {
 
     float: left;
     height: 158px;
